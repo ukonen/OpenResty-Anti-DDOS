@@ -12,7 +12,7 @@ access_by_lua_file lua/anti-ddos.lua;
 ```
 
 <details>
-<summary>Example http {} block within nginx.lua</summary>
+<summary>Example http {} block within nginx.conf</summary>
 
 ```lua
 http {
