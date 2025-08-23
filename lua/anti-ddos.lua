@@ -39,11 +39,6 @@ local min_challenge_strength = 30000
 
 -- Shared lua dictionary object
 local shared_antiddos = ngx.shared.antiddos
--- Localize functions for better performance, luaJIT should do this already but this is just incase.
-local tostring = tostring
-local string = string
-local math = math
-local os = os
 
 --[[
 	Start our actual code lol
