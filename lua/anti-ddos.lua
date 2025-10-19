@@ -59,7 +59,7 @@ end
 -- Get the ip address of the client
 local client_ip = tostring(ngx.var.remote_addr)
 
--- Get the time ( subtracting unix time because that's slightly less ram usage!!! )
+-- Get the time
 local minimal_time = os.time() - 1700000000
 
 -- Check the if the client already exists in the dictionary
